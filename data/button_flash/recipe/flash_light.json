@@ -1,15 +1,15 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-	"pattern": ["#", "$", "%"],
+	"pattern": ["$", "%", "&"],
 	"key": {
-		"#": {
+		"$": {
 			"item": "minecraft:glowstone_dust"
 		},
-		"$": {
+		"%": {
 			"item": "minecraft:lever"
 		},
-		"%": {
+		"&": {
 			"item": "minecraft:iron_ingot"
 		}
 	},
@@ -17,9 +17,14 @@
 		"id": "minecraft:carrot_on_a_stick",
 		"count": 1,
 		"components": {
-			"minecraft:item_name": "懐中電灯",
-			"minecraft:custom_data": "{button_flash:0}",
-			"minecraft:custom_model_data": 1
+			"minecraft:item_name": "{\"text\": \"懐中電灯\"}",
+			"minecraft:custom_data": "{button_flash:0, battery:10000}",
+			"minecraft:custom_model_data": 1,
+			"lore": [
+				"{\"text\": \"\"}",
+				"{\"text\": \"バッテリー残量\", \"italic\": false, \"color\": \"white\"}",
+				"{\"text\": \"■■■■■■■■■■\", \"italic\": false, \"color\": \"green\"}"
+			]
 		}
 	}
 }
