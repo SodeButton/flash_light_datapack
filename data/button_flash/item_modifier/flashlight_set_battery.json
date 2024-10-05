@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_custom_data",
+	"source": {
+		"type": "minecraft:storage",
+		"source": "button_flash:battery"
+	},
+	"ops": [
+		{
+			"source": "value",
+			"target": "battery",
+			"op": "replace"
+		}
+	]
+}
