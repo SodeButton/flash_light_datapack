@@ -2,7 +2,7 @@
 execute store result score $battery button_flash.battery run data get entity @s SelectedItem.components."minecraft:custom_data".battery
 
 # 計算用のスコアを用意
-scoreboard players set $1 button_flash.battery 10
+scoreboard players set $1 button_flash.battery 1
 
 # バッテリーを１減らす
 scoreboard players operation $battery button_flash.battery -= $1 button_flash.battery
