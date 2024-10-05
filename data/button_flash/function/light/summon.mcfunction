@@ -1,4 +1,4 @@
-# 光源を億用のAECを召喚
+# 光源を置くようのAECを召喚
 execute positioned ~ ~1.62 ~ align xyz if block ~ ~ ~ #button_flash:air run summon area_effect_cloud ~ ~ ~ {Duration:2, Tags:["Light"]}
 execute positioned ~ ~1.62 ~ align xyz if block ~ ~ ~ light[waterlogged=false] run summon area_effect_cloud ~ ~ ~ {Duration:2, Tags:["Light"]}
 execute positioned ~ ~1.62 ~ align xyz if block ~ ~ ~ water run summon area_effect_cloud ~ ~ ~ {Duration:2, Tags:["Light", "InWater"]}
