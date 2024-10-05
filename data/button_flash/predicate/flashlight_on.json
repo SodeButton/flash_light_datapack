@@ -9,11 +9,6 @@
 					"mainhand": {
 						"items": "minecraft:carrot_on_a_stick",
 						"predicates": {
-							"minecraft:damage": {
-								"durability": {
-									"min": 1
-								}
-							},
 							"minecraft:custom_data": "{button_flash:1}"
 						}
 					}
@@ -28,11 +23,6 @@
 					"offhand": {
 						"items": "minecraft:carrot_on_a_stick",
 						"predicates": {
-							"minecraft:damage": {
-								"durability": {
-									"min": 1
-								}
-							},
 							"minecraft:custom_data": "{button_flash:1}"
 						}
 					}
