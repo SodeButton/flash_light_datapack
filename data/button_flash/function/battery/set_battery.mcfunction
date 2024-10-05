@@ -1,0 +1,1 @@
+$execute as @a at @s if predicate button_flash:flashlight_mainhand_off run item modify entity @s weapon.mainhand {"function": "minecraft:set_custom_data","tag": {battery: $(value)}}

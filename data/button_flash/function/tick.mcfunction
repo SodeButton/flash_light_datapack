@@ -2,10 +2,10 @@
 ## 常時実行Function
 
 # 右クリック時の処理
-# execute as @a at @s if score @s button_flash.right_click matches 1.. run function button_flash:switch
 execute as @a at @s if predicate button_flash:flashlight run function button_flash:switch
 
 # 点灯状態の懐中電灯を手に持っていたら -> 光を出す
+
 execute as @a at @s if predicate button_flash:flashlight_on run function button_flash:light/summon
 
 # 点灯状態の懐中電灯を手に持っていたらバッテリーを減らす
